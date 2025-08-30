@@ -1,0 +1,27 @@
+{
+  "name": "playwright-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:ui": "npx playwright test --ui",
+    "test:report": "npx playwright test && npx playwright show-report",
+    "test:regression": "npx playwright test --headed --grep @regression"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msananeva/playwright-typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/msananeva/playwright-typescript/issues"
+  },
+  "homepage": "https://github.com/msananeva/playwright-typescript#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^24.3.0"
+  }
+}
